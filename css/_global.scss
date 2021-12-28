@@ -1,0 +1,50 @@
+/* -------------------------------------------------------------------------- */
+/*                            //LINK STICKY footer                            */
+/* -------------------------------------------------------------------------- */
+html {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+header {
+	flex: 0 0 auto;
+}
+
+.main-content {
+	flex: 1 0 auto;
+	overflow: hidden;
+}
+
+footer {
+	flex: 0 0 auto;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                              //LINK CONTAINER                              */
+/* -------------------------------------------------------------------------- */
+.container {
+	max-width: 1200px;
+	width: 100%;
+	padding: 0 15px 0 15px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                               //LINK GLOBALS                               */
+/* -------------------------------------------------------------------------- */
+html,
+body {
+	font-family: 'RockStar', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: var(--text-color-dark);
+}
+
+a:hover {
+	text-decoration: none;
+	color: inherit;
+}
